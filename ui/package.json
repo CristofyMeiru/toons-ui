@@ -1,0 +1,25 @@
+{
+  "name": "toons-ui",
+  "version": "1.0.0",
+  "description": "CLI para gerenciar componentes da UI Toons",
+  "author": {
+    "name": "CristofyMeiru",
+    "url": "https://github.com/CristofyMeiru"
+  },
+  "contributors": [
+    {
+      "name": "ThayzaMaciel",
+      "url": "https://github.com/ThayzaMaciel"
+    }
+  ],
+  "bin": {
+    "toons-ui": "./cli/index.js"
+  },
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^12.6.2"
+  }
+}
